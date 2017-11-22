@@ -1,0 +1,7 @@
+--database=postgresql
+--webpack=react
+--skip-action-cable
+--skip-coffee
+--skip-test
+--skip-spring
+--template=~/rails_template.rb
