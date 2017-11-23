@@ -1,10 +1,7 @@
 gem_group :development, :test do
   gem 'annotate'
-  gem 'capybara'
-  gem 'database_cleaner'
   gem 'dotenv-rails'
   gem 'factory_bot_rails'
-  gem 'rspec-rails'
 end
 
 gem_group :development do
@@ -19,6 +16,12 @@ gem_group :development do
   gem 'brakeman', require: false # Rails Security Scanner
   gem 'bundler-audit', require: false # Patch-level verification for Bundler
   gem 'traceroute' # find dead routes and unused actions
+end
+
+gem_group :test do
+  gem 'capybara'
+  gem 'rspec-rails'
+  gem 'rspec_junit_formatter' # for certain CI services
 end
 
 after_bundle do
