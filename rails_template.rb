@@ -52,7 +52,22 @@ after_bundle do
     Documentation:
       Enabled: false
 
+    Layout/EmptyLinesAroundBlockBody:
+      Enabled: false
+
+    Layout/EmptyLinesAroundModuleBody:
+      Enabled: false
+
+    Layout/EmptyLinesAroundClassBody:
+      Enabled: false
+
+    Layout/EmptyLinesAroundMethodBody:
+      Enabled: false
+
     Metrics/BlockLength:
+      Enabled: false
+
+    Style/EmptyMethod:
       Enabled: false
 
     Style/FrozenStringLiteralComment:
