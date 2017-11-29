@@ -2,6 +2,7 @@ gem_group :development, :test do
   gem 'annotate'
   gem 'dotenv-rails'
   gem 'factory_bot_rails'
+  gem 'rspec-rails' # must also be on development group for generators to work
 end
 
 gem_group :development do
@@ -20,7 +21,6 @@ end
 
 gem_group :test do
   gem 'capybara'
-  gem 'rspec-rails'
   gem 'rspec_junit_formatter' # for certain CI services
 end
 
