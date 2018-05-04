@@ -1,6 +1,5 @@
 --database=postgresql
---webpack=react
---skip-action-cable
+--webpack=stimulus
 --skip-coffee
 --skip-test
 --skip-spring
