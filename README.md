@@ -11,7 +11,7 @@ Use this template to kickstart a fantastic Rails project!
 ## Main features
 
 - PostgreSQL database
-- Yarn + Webpack + React
+- Yarn + Webpack + StimulusJS
 - Rspec
 - Quality of life (QoL) gems
 - Code quality focused gems
