@@ -3,4 +3,5 @@
 --skip-coffee
 --skip-test
 --skip-spring
+--skip-sprockets
 --template=~/rails_template.rb

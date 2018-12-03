@@ -42,8 +42,8 @@ after_bundle do
   generate 'rspec:install'
   generate 'annotate:install'
 
-  run 'rm REAME.md'
-  file 'REAME.md', <<-CODE
+  run 'rm README.md'
+  file 'README.md', <<-CODE
 # Title
 
 TBD: short description
